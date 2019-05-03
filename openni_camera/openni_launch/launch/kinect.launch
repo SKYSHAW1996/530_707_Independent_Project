@@ -1,0 +1,5 @@
+<launch>
+  <param name="/camera/driver/data_skip" value="3" />
+
+  <include file="$(find openni_launch)/launch/openni.launch" />
+</launch>
